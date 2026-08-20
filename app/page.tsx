@@ -1,7 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-import { ArrowUpRight, BarChart3, Check, ChevronDown, Globe2, ShieldCheck, Sparkles, TrendingUp } from 'lucide-react'
+import { ArrowUpRight, BarChart3, Check, ChevronDown, ShieldCheck, Sparkles, TrendingUp } from 'lucide-react'
 import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
@@ -16,16 +15,13 @@ const services = [
 const audiences = ['Retail investors', 'HNIs', 'SMEs & corporates', 'Institutions', 'Diaspora Nigerians', 'Cooperative schemes']
 
 export default function Home() {
-  const [open, setOpen] = useState(false)
-  const closeMenu = () => setOpen(false)
-
   return (
     <main className="site-shell">
       <section className="hero" id="top">
         <div className="hero-image" aria-hidden="true" />
         <Header />
         <div className="hero-content container">
-          <p className="eyebrow"><span className="eyebrow-dot" /> Lagos · Nigeria · Since day one</p>
+          <p className="eyebrow"><span className="eyebrow-dot" /> Lagos · Nigeria · Since 2008</p>
           <h1>Clarity of insight.<br /><em>Precision in execution.</em></h1>
           <p className="hero-copy">A modern capital markets partner for Nigerians building enduring wealth — at home and around the world.</p>
           <div className="hero-actions">

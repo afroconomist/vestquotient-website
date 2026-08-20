@@ -10,7 +10,7 @@ export function Header() {
   const pathname = usePathname()
   const closeMenu = () => setOpen(false)
 
-  const isActive = (href: string) => pathname === href
+  const isActive = (href: string) => href === '/' ? pathname === '/' : pathname.startsWith(href)
 
   return (
     <nav className="nav container" aria-label="Main navigation">
