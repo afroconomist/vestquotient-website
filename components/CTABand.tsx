@@ -1,4 +1,5 @@
 import { ArrowUpRight } from 'lucide-react'
+import Link from 'next/link'
 
 interface CTABandProps {
   title: string
@@ -27,12 +28,12 @@ export function CTABand({ title, subtitle, buttonText, buttonHref, isDark = fals
             {buttonText} <ArrowUpRight />
           </a>
         ) : (
-          <a
+          <Link
             className={`button ${isDark ? 'button-light' : 'button-primary'}`}
             href={buttonHref}
           >
             {buttonText} <ArrowUpRight />
-          </a>
+          </Link>
         )}
       </div>
     </section>
