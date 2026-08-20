@@ -21,7 +21,7 @@ export default function Home() {
         <div className="hero-image" aria-hidden="true" />
         <Header />
         <div className="hero-content container">
-          <p className="eyebrow"><span className="eyebrow-dot" /> Lagos · Nigeria · Since 2008</p>
+          <p className="eyebrow"><span className="eyebrow-dot" /> Lagos · Nigeria</p>
           <h1>Clarity of insight.<br /><em>Precision in execution.</em></h1>
           <p className="hero-copy">A modern capital markets partner for Nigerians building enduring wealth — at home and around the world.</p>
           <div className="hero-actions">
